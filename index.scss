@@ -16,6 +16,7 @@ body{
     font-family: 'Roboto', sans-serif;
     transition: 0.5s;
     text-transform: capitalize;
+    
 }
 html{
     font-size: 65%;
@@ -111,7 +112,7 @@ html{
 .home-text-content .hey{
     font-size: 35px;
     color: #ebebeb;
-    font-family: 'Chivo Mono', monospace;
+    
 }
 .home-text-content h1{
     font-size: 45px;
@@ -123,7 +124,7 @@ html{
     margin-top: 10px;
     margin-bottom: 15px;
     line-height: 25px;
-}
+}   
 
 .bank > img {
     width: 100%;
@@ -151,8 +152,6 @@ html{
     margin-top: 10px;
     color:rgba(24,147,247,1) ;
     text-align: center;
-    font-family: 'Chivo Mono', monospace;
-    font-family: 'DynaPuff', cursive;
     font-size: 4rem;
     font-weight: 800;
 }
@@ -166,8 +165,6 @@ html{
 .need > h2{
     color: white;
     text-align: center;
-    font-family: 'Chivo Mono', monospace;
-    font-family: 'DynaPuff', cursive;
     font-size: 4rem;
     font-weight: 800;
     display: block;
@@ -175,7 +172,62 @@ html{
     letter-spacing: normal;
 }
 .video1{
+    background-color: white;
     width: 100%;
     height: 500px;
-    border: 10px solid green;
+    display: inline-flex;
+    // border: 10px solid green;
+}
+.text2{
+    color: black;
+    // border: 10px solid green ;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text2 > h1, .left> h1{
+    color: aqua;
+    font-size: xx-large;
+    font-weight: 800;
+    font-family: 'Chivo Mono', monospace;
+    font-family: 'DynaPuff', cursive;
+}
+.text2 > p , .left > p{
+    font-size: large;
+    font-weight: 600;
+}
+.vide1{
+     width: 50%;
+     height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.metal{
+    width: 100%;
+    // height: auto;/
+    // border: 10px solid red;
+    background-color: #f0f0f0;
+    display: inline-flex;
+}
+.left{
+    width: 50%;
+    // border: 10px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
 }
