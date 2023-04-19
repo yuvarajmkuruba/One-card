@@ -4,6 +4,7 @@ const sr = ScrollReveal ({
     reset : true,
   })
 
+  
   sr.reveal('.vide1',{ delay:550, origin:'top' })
   sr.reveal('.text2',{ delay:550, origin:'left' })
   sr.reveal('.metal .left',{ delay:500, origin:'right' })
