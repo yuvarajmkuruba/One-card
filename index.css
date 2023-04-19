@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200&family=DynaPuff&display=swap");
+:root {
+  --btn-color:rgba(24,147,247,1);
+  --about-sec:#1d1d23;
+}
+
+body {
+  background-color: #1d1d23;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  transition: 0.5s;
+  text-transform: capitalize;
+}
+
+html {
+  font-size: 65%;
+  scroll-behavior: smooth;
+}
+
+.header {
+  padding: 1rem 7%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  background: #1d1d23;
+}
+
+.logo img {
+  width: 60px;
+}
+
+.navbar a {
+  color: white;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.navbar a:hover {
+  color: var(--btn-color);
+}
+
+.icons div {
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 10px;
+  display: none;
+}
+
+.icons div:hover {
+  cursor: pointer;
+}
+
+.icons a {
+  color: white;
+  padding: 0.6rem 1.5rem;
+  border: 1px solid green;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: 0.5s;
+  display: inline-block;
+}
+
+.contact-btn:hover {
+  transform: scale(1.1);
+  background: black;
+  border: 1px solid white;
+}
+
+.navbar.active {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.home {
+  padding: 1rem 7%;
+  min-height: 100vh;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding-top: 150px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.home-inner-content {
+  flex: 1 1 45rem;
+}
+
+.home-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.home-image img {
+  width: 100%;
+  position: absolute;
+  transform: translate(0%, -40%);
+}
+
+.home-text-content {
+  padding: 0 8rem;
+}
+
+.home-text-content .hey {
+  font-size: 35px;
+  color: #ebebeb;
+  font-family: "Chivo Mono", monospace;
+}
+
+.home-text-content h1 {
+  font-size: 45px;
+  color: rgb(24, 147, 247);
+}
+
+.home-text-content p {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  line-height: 25px;
+}
+
+.bank > img {
+  width: 100%;
+}
+
+.home-text-content a {
+  color: white;
+  padding: 0.6rem 1.5rem;
+  border: 1px solid rgb(47, 255, 47);
+  border-radius: 10px;
+  font-size: 18px;
+  transition: 0.5s;
+  display: inline-block;
+}
+
+.home-text-content a:hover {
+  background: black;
+  border: 1px solid white;
+}
+
+.hidden {
+  width: 100%;
+  height: 500px;
+}
+
+.hidden > h1 {
+  margin-top: 10px;
+  color: rgb(24, 147, 247);
+  text-align: center;
+  font-family: "Chivo Mono", monospace;
+  font-family: "DynaPuff", cursive;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.need {
+  margin-top: 5%;
+  width: 100%;
+  height: auto;
+  gap: 15;
+}
+
+.need > h2 {
+  color: white;
+  text-align: center;
+  font-family: "Chivo Mono", monospace;
+  font-family: "DynaPuff", cursive;
+  font-size: 4rem;
+  font-weight: 800;
+  display: block;
+  line-height: 2.1;
+  letter-spacing: normal;
+}
+
+.video1 {
+  width: 100%;
+  height: 500px;
+  border: 10px solid green;
+}/*# sourceMappingURL=index.css.map */
