@@ -11,4 +11,3 @@ const sr = ScrollReveal ({
   sr.reveal('.metal .right',{ delay:800, origin:'top' })
 
   
-  

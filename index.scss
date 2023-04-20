@@ -147,6 +147,7 @@ html{
 .hidden{
     width: 100%;
     height: 500px;
+    padding: auto;
     // border: 10px solid green;
 }
 .hidden > h1{
@@ -266,4 +267,66 @@ footer{
     background-color: white;
 
 }
+.new1{
 
+    width: 100%;
+    height: 400px;
+    // border: 10px solid red;
+    // color: red;
+    display: inline-flex;
+}
+.l1{
+    width: 50%;
+    // border: 10px solid green;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column
+}
+.l1 > h1{
+    font-weight: bolder;
+    color: aqua;
+    margin-top: 1%;
+    text-transform: uppercase;
+    font-size: xx-large;
+
+}
+.l1 > img{
+    margin-top: 5%;
+    width: 60%
+}
+.l1 > p{
+    margin-top: 5%;
+    width: 60%;
+    color: white;
+    font-size: 150%;
+    font-weight: 500;
+    
+}
+.ri{
+    width: 50%;
+
+    // border: 10PX solid rgb(29, 25, 227);
+}
+.ri> h1{
+    color: aqua;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 2%;
+}
+.sub{
+    padding: auto auto ;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sub > h1{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
